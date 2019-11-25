@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+}
+
+.cards {
+    width: 4.3em; 
+    height: 7.6em;
+    border: 1px solid #666;
+    border-radius: .3em;
+    padding: 100px;
+    box-shadow: .2em .2em .5em white;  
+    position: absolute;
+    margin: 100px;  
+    margin-left: 200px; 
+
+        
+    
+}
+
+
+#card1 {
+    background-color: red; 
+    -moz-transform: rotate(360deg) translate(50px, 50px);
+    -webkit-transform: rotate(360deg) translate(50px, 50px);
+    -o-transform: rotate(360deg) translate(50px, 50px);
+    -ms-transform: rotate(360deg) translate(50px, 50px);
+    transform: rotate(360deg) translate(50px, 50px);
+      
+}
+
+#card1:hover {
+    border: 2px solid white; 
+    z-index: 1;
+
+}
+
+#card2 {
+    background-color: yellow;
+    -moz-transform: rotate(360deg) translate(50px, 50px);
+    -webkit-transform: rotate(360deg) translate(50px, 50px);
+    -o-transform: rotate(360deg) translate(50px, 50px);
+    -ms-transform: rotate(360deg) translate(50px, 50px);
+    transform: rotate(375deg) translate(50px, 50px);
+}
+
+#card2:hover {
+    border: 2px solid white;
+    z-index: 1;  
+}
+#card3 {
+    background-color: lime;
+    -moz-transform: rotate(360deg) translate(50px, 50px);
+    -webkit-transform: rotate(360deg) translate(50px, 50px);
+    -o-transform: rotate(360deg) translate(50px, 50px);
+    -ms-transform: rotate(360deg) translate(50px, 50px);
+    transform: rotate(390deg) translate(50px, 50px);
+}
+
+#card3:hover {
+    border: 2px solid white;
+    z-index: 1;  
+}
+
+#card4 {
+    background-color:blue;
+    -moz-transform: rotate(360deg) translate(50px, 50px);
+    -webkit-transform: rotate(360deg) translate(50px, 50px);
+    -o-transform: rotate(360deg) translate(50px, 50px);
+    -ms-transform: rotate(360deg) translate(50px, 50px);
+    transform: rotate(405deg) translate(50px, 50px); 
+    color: white; 
+}
+
+#card4:hover {
+    border: 2px solid white;  
+    z-index: 1;
+}
+
+#card5 {
+    background-color: magenta;
+    -moz-transform: rotate(360deg) translate(50px, 50px);
+    -webkit-transform: rotate(360deg) translate(50px, 50px);
+    -o-transform: rotate(360deg) translate(50px, 50px);
+    -ms-transform: rotate(360deg) translate(50px, 50px);
+    transform: rotate(420deg) translate(50px, 50px);
+}
+
+#card5:hover {
+    border: 2px solid white; 
+    z-index: 1; 
+}
+
+.stars {
+    width: 200px;
+    height: 200px; 
+    border: 1px solid #666;
+    margin-top: 200px;
+    margin-left: 900px; 
+    position: absolute;
+    border-radius: .3em; 
+    box-shadow: .2em .2em .5em white;
+        
+}
+
+#star1 {
+    background-color: red;
+    -moz-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -webkit-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -o-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -ms-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    transform: scale(1) rotate(30deg) translate(0px, 0px);
+}
+
+#star2 {
+    background-color: yellow;
+    -moz-transform: scale(1) rotate(60deg) translate(50px, 50px);
+    -webkit-transform: scale(1) rotate(60deg) translate(50px, 50px);
+    -o-transform: scale(1) rotate(60deg) translate(50px, 50px);
+    -ms-transform: scale(1) rotate(60deg) translate(50px, 50px);
+    transform: scale(1) rotate(60deg) translate(0px, 0px);
+}
+
+
+#star3 {
+    background-color: blue;
+    -moz-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -webkit-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -o-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    -ms-transform: scale(1) rotate(90deg) translate(50px, 50px);
+    transform: scale(1) rotate(90deg) translate(0px, 0px);
+    color: white; 
+}
